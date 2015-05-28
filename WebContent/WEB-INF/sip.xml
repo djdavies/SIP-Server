@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sip-app>
+ 
+	<app-name>MySipServlet</app-name>
+	<display-name>MySipServlet</display-name>
+	<description>MySipServlet</description>
+	
+	<main-servlet>
+		MySipServlet
+	</main-servlet>
+
+	<servlet>
+		<servlet-name>MySipServlet</servlet-name>
+		<display-name>MySipServlet</display-name>
+		<description>MySipServlet</description>
+		<servlet-class>
+			org.example.servlet.sip.MySipServlet
+		</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+</sip-app>
